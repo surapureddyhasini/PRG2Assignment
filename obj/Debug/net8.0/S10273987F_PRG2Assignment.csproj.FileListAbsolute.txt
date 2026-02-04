@@ -1,0 +1,20 @@
+C:\work\ASG_PRG\bin\Debug\net8.0\csv_files\customers.csv
+C:\work\ASG_PRG\bin\Debug\net8.0\csv_files\fooditems - Copy.csv
+C:\work\ASG_PRG\bin\Debug\net8.0\csv_files\orders.csv
+C:\work\ASG_PRG\bin\Debug\net8.0\csv_files\restaurants.csv
+C:\work\ASG_PRG\bin\Debug\net8.0\csv_files\specialoffers.csv
+C:\work\ASG_PRG\bin\Debug\net8.0\S10273987F_PRG2Assignment.exe
+C:\work\ASG_PRG\bin\Debug\net8.0\S10273987F_PRG2Assignment.deps.json
+C:\work\ASG_PRG\bin\Debug\net8.0\S10273987F_PRG2Assignment.runtimeconfig.json
+C:\work\ASG_PRG\bin\Debug\net8.0\S10273987F_PRG2Assignment.dll
+C:\work\ASG_PRG\bin\Debug\net8.0\S10273987F_PRG2Assignment.pdb
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.AssemblyInfoInputs.cache
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.AssemblyInfo.cs
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.csproj.CoreCompileInputs.cache
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.sourcelink.json
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.dll
+C:\work\ASG_PRG\obj\Debug\net8.0\refint\S10273987F_PRG2Assignment.dll
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.pdb
+C:\work\ASG_PRG\obj\Debug\net8.0\S10273987F_PRG2Assignment.genruntimeconfig.cache
+C:\work\ASG_PRG\obj\Debug\net8.0\ref\S10273987F_PRG2Assignment.dll
