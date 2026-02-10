@@ -14,7 +14,6 @@ namespace S10273987F_PRG2Assignment
 {
     class Order
     {
-        // Attributes as per class diagram
         public int OrderId { get; set; }
         public DateTime OrderDateTime { get; set; }
         public double OrderTotal { get; set; }
@@ -24,7 +23,6 @@ namespace S10273987F_PRG2Assignment
         public string OrderPaymentMethod { get; set; }
         public bool OrderPaid { get; set; }
 
-        // Associations (context links)
         public Customer Customer { get; set; }
         public Restaurant Restaurant { get; set; }
 
@@ -33,7 +31,7 @@ namespace S10273987F_PRG2Assignment
 
         // Constructor
         // When creating from file: pass in the orderId from CSV
-        // When creating new order: pass in the next available orderId
+        // When creating new order: pass in the next available orderId (which is the generated one right...)
         public Order(int orderId, Customer customer, Restaurant restaurant,
                      DateTime deliveryDateTime, string deliveryAddress)
         {
@@ -69,7 +67,6 @@ namespace S10273987F_PRG2Assignment
             this.OrderedFoodItemList = new List<OrderedFoodItem>();
         }
 
-        // Methods as per class diagram
         public void AddOrderedFoodItem(OrderedFoodItem item)
         {
             OrderedFoodItemList.Add(item);
@@ -101,7 +98,7 @@ namespace S10273987F_PRG2Assignment
             }
         }
 
-        // Calculate total: sum of all food items + $5 delivery fee
+        // Calculate total, sum of all food items + $5 delivery fee (this is in descriptor), the 30% that goes to Gruberoo is implemented in program.cs later
         public double CalculateOrderTotal()
         {
             double total = 0;
@@ -111,7 +108,7 @@ namespace S10273987F_PRG2Assignment
                 total += item.SubTotal;
             }
 
-            total += 5.00; // standard delivery fee
+            total += 5.00; // delivery fee
 
             OrderTotal = total;
             return OrderTotal;

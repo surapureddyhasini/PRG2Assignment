@@ -17,16 +17,16 @@ namespace S10273987F_PRG2Assignment
         public string EmailAddress { get; set; }
         public string CustomerName { get; set; }
 
-        public List<Order> orderList { get; set; } = new List<Order>();
+        public List<Order> customerOrderList { get; set; } = new List<Order>();
 
         public void AddOrder(Order order)
         {
-            orderList.Add(order);
+            customerOrderList.Add(order);
         }
 
         public void DisplayAllOrders()
         {
-            foreach (Order order in orderList)
+            foreach (Order order in customerOrderList)
             {
                 Console.WriteLine(order);
             }
@@ -34,7 +34,7 @@ namespace S10273987F_PRG2Assignment
 
         public bool RemoveOrder(Order order)
         {
-            return orderList.Remove(order);
+            return customerOrderList.Remove(order);
         }
 
 

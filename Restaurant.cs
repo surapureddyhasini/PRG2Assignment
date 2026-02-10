@@ -22,11 +22,11 @@ namespace S10273987F_PRG2Assignment
 
         public List<Menu> MenuList { get; set; } = new List<Menu>();
         public List<SpecialOffer> SpecialOfferList { get; set; } = new List<SpecialOffer>();
-        public List<Order> OrderList { get; set; } = new List<Order>();
+        public List<Order> restaurantOrderList { get; set; } = new List<Order>();
 
         public void DisplayOrders()
         {
-            foreach (Order order in OrderList)
+            foreach (Order order in restaurantOrderList)
             {
                 Console.WriteLine(order);
             }
